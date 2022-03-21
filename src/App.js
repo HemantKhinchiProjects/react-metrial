@@ -2,12 +2,14 @@ import React, { Fragment } from 'react';
 import './style.css';
 
 import Header from './Components/Layout/Header';
-import MealSummary from './Components/Meals/MealsSummary';
+import Meals from './Components/Meals/Meals';
 export default function App() {
   return (
     <Fragment>
       <Header />
-      <MealSummary />
+      <main>
+        <Meals />
+      </main>
     </Fragment>
   );
 }
