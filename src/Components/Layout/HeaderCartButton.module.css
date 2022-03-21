@@ -9,7 +9,7 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 25px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .button:hover,
@@ -28,7 +28,7 @@
   padding: 0.25rem 1rem;
   border-radius: 25px;
   margin-left: 1rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .button:hover .badge,
