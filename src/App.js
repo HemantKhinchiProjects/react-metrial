@@ -1,15 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './style.css';
-import Button from './UI/Button';
-import SplitButton from './UI/ButtonGroup';
+
+import Header from './Components/Layout/Header';
 export default function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-      <Button />
-      <br />
-      <SplitButton />
-    </div>
+    <Fragment>
+      <Header />
+    </Fragment>
   );
 }
